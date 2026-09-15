@@ -1,6 +1,5 @@
 package cui;
 
-//tag::mainStaafdiagram[]
 public class Staafdiagram {
     void main() {
         new Staafdiagram().toonStaafdiagram();
@@ -21,7 +20,6 @@ public class Staafdiagram {
         }
     }
 }
-//end::mainStaafdiagram[]
 
 //	Verdeling examenresultaten:
 //	00-09: ********

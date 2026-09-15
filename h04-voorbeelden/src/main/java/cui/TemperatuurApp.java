@@ -4,7 +4,6 @@ import domein.TemperatuurStatistiek;
 
 public class TemperatuurApp {
 
-    // tag::main[]
     void main() {
         new TemperatuurApp().leesTemperaturenEnToonStatistieken();
     }
@@ -33,6 +32,5 @@ public class TemperatuurApp {
     private double geefTemperatuur(int dag) { // <.>
         return Double.parseDouble(IO.readln("Geef temperatuur in voor dag " + dag + " > "));
     }
-    // end::main[]
 
 }

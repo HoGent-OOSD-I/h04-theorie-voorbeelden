@@ -40,7 +40,6 @@ public class Basis_GetallenEnKleuren {
         werpAIOOBException();
     }
 
-    // tag::methodeToonIntArray[]
     private void toonGetallen() {
         SecureRandom sr = new SecureRandom();
         int[] getallen;
@@ -53,32 +52,26 @@ public class Basis_GetallenEnKleuren {
             IO.println(String.format("- op index %d zit element %d.", index, getallen[index]));
         }
     }
-    // end::methodeToonIntArray[]
 
     private void berekenSomMetKlassiekeFor() {
-        // tag::methodeGeefSom01[]
         double[] getallen = {23.12, 2.56, 88, 97.4};
         double som = 0;
         for (int index = 0; index < getallen.length; index++) { // <.>
             som += getallen[index];
         }
         IO.println(String.format("De som is %.3f", som)); // De som is 211,080
-        // end::methodeGeefSom01[]
     }
 
     private void berekenSomMetEnhancedFor() {
-        // tag::methodeGeefSom02[]
         double[] getallen = {23.12, 2.56, 88, 97.4};
         double som = 0;
         for (double getal : getallen) { // <.>
             som += getal;
         }
         IO.println(String.format("De som is %.3f", som)); // De som is 211,080
-        // end::methodeGeefSom02[]
     }
 
     private void maakAlleNegatieveGetallenNul_Klassiek() { // <.>
-        // tag::vbWijzigKlassiekeFor[]
         int[] getallenmix = {-5, 10, -2, -1, 0, 23};
         for (int index = 0; index < getallenmix.length; index++) {
             if (getallenmix[index] < 0)
@@ -93,11 +86,9 @@ public class Basis_GetallenEnKleuren {
         // - op index 3 zit element 0.
         // - op index 4 zit element 0.
         // - op index 5 zit element 23.
-        // end::vbWijzigKlassiekeFor[]
     }
 
     private void maakAlleNegatieveGetallenNul_Enhanced() { // <.>
-        // tag::vbWijzigEnhancedFor[]
         int[] getallenmix = new int[]{-5, 10, -2, -1, 0, 23};
         for (int getal : getallenmix) {
             if (getal < 0)
@@ -112,7 +103,6 @@ public class Basis_GetallenEnKleuren {
         // - op index 3 zit element -1.
         // - op index 4 zit element 0.
         // - op index 5 zit element 23.
-        // end::vbWijzigEnhancedFor[]
     }
 
     private void toonStrings(String[] strings) {

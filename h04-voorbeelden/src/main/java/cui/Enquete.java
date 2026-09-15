@@ -1,6 +1,5 @@
 package cui;
 
-//tag::Enquete[]
 public class Enquete {
     void main() {
         new Enquete().verwerkEnquete();
@@ -23,7 +22,6 @@ public class Enquete {
     }
 
 }
-//end::Enquete[]
 
 // Antwoord    Aantal
 //		  1         2

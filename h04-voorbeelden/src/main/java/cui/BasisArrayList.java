@@ -1,6 +1,5 @@
 package cui;
 
-//tag::basisArrayList[]
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,6 @@ public class BasisArrayList {
     void main() {
         List<String> benodigdheden = new ArrayList<>();
 
-        // tag::AL_methods[]
         benodigdheden.add("hamer");
         benodigdheden.add("plank");
         benodigdheden.add("nagel");
@@ -39,6 +37,4 @@ public class BasisArrayList {
             IO.println(b);
         }
     }
-    // end::AL_methods[]
 }
-//end::basisArrayList[]
