@@ -29,7 +29,7 @@ public class DeckOfCardsApplication {
         showHand("Player 1", handPlayer1);
         showHand("Player 2", handPlayer2);
 
-        System.out.println("\nAfter dealing: the deck of cards now contains " + deck.giveNumberOfCards() + " cards.%n");
+        IO.println("\nAfter dealing: the deck of cards now contains " + deck.giveNumberOfCards() + " cards.%n");
     }
 
     private void showHand(String playerName, List<Card> cards) {
