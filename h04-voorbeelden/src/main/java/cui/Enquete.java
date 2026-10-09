@@ -15,7 +15,8 @@ public class Enquete {
 
         IO.println(String.format("%8s%8s", "Score", "Aantal"));
         for (int resultaat = 0; resultaat < resultaten.length; resultaat++) {
-            IO.println(String.format("%8d%8d", resultaat + 1, resultaten[resultaat])); // <.>
+            IO.println(String.format("%8d%8d",
+                    resultaat + 1, resultaten[resultaat])); // <.>
         }
 
         IO.println("Totaal aantal antwoorden: " + scores.length); // <.>

@@ -11,9 +11,9 @@ public class TemperatuurStatistiek {
 		temperaturen.add(temperatuur); // <.>
 	}
 
-	public boolean bevatVriestemperaturen() { // <.>
+	public boolean bevatVriestemperaturen() {
 		for (double t : temperaturen) { // <.>
-			if (t <= 0)
+			if (t <= 0) // <.>
 				return true;
 		}
 		return false;
