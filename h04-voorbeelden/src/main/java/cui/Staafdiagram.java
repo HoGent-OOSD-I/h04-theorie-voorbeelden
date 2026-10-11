@@ -2,7 +2,7 @@ package cui;
 
 public class Staafdiagram {
     void main() {
-        new Staafdiagram().toonStaafdiagram();
+        toonStaafdiagram();
     }
 
     private void toonStaafdiagram() {

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayListBreakDemo {
     void main() {
-        new ArrayListBreakDemo().toonBreakStatement();
+        toonBreakStatement();
     }
 
     private void toonBreakStatement() {

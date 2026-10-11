@@ -2,7 +2,7 @@ package cui;
 
 public class TweedimensionaleArraysVoorbeeld2 {
     void main() {
-        new TweedimensionaleArraysVoorbeeld2().vulTweedimensionaleArrayOp();
+        vulTweedimensionaleArrayOp();
     }
 
     private void vulTweedimensionaleArrayOp() {

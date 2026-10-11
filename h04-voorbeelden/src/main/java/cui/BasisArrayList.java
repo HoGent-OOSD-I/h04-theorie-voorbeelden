@@ -23,7 +23,7 @@ public class BasisArrayList {
         benodigdheden.set(2, "balk");
         String oud = benodigdheden.set(2, "stok");
         IO.println("We hebben niet langer een " + oud + " nodig. We gaan een " + benodigdheden.get(2) + " gebruiken");
-        new BasisArrayList().toonBenodigdheden(benodigdheden);
+        toonBenodigdheden(benodigdheden);
         String verwijderd = benodigdheden.remove(2);
         IO.println("De lijst van benodighdheden bevat niet langer " + verwijderd + "...");
         if (benodigdheden.remove("tank"))

@@ -5,8 +5,7 @@ import java.security.SecureRandom;
 public class Basis_GetallenEnKleuren {
 
     void main() {
-        new Basis_GetallenEnKleuren().toonVoorbeelden();
-
+        toonVoorbeelden();
     }
 
     private void toonVoorbeelden() {

@@ -2,7 +2,7 @@ package cui;
 
 public class Enquete {
     void main() {
-        new Enquete().verwerkEnquete();
+        verwerkEnquete();
     }
 
     private void verwerkEnquete() {

@@ -5,7 +5,7 @@ import domein.TemperatuurStatistiek;
 public class TemperatuurApp {
 
     void main() {
-        new TemperatuurApp().leesTemperaturenEnToonStatistieken();
+        leesTemperaturenEnToonStatistieken();
     }
 
     private void leesTemperaturenEnToonStatistieken() {

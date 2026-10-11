@@ -9,7 +9,7 @@ import java.util.List;
 public class DeckOfCardsApplication {
 
     void main() {
-        new DeckOfCardsApplication().makeDeckAndGiveCards();
+        makeDeckAndGiveCards();
     }
 
     private void makeDeckAndGiveCards() {
@@ -29,7 +29,7 @@ public class DeckOfCardsApplication {
         showHand("Player 1", handPlayer1);
         showHand("Player 2", handPlayer2);
 
-        IO.println("\nAfter dealing: the deck of cards now contains " + deck.giveNumberOfCards() + " cards.%n");
+        IO.println("\nAfter dealing: the deck of cards now contains " + deck.giveNumberOfCards() + " cards.");
     }
 
     private void showHand(String playerName, List<Card> cards) {

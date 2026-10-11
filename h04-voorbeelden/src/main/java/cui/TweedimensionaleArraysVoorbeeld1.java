@@ -2,7 +2,7 @@ package cui;
 
 public class TweedimensionaleArraysVoorbeeld1 {
     void main() {
-        new TweedimensionaleArraysVoorbeeld1().maakEnToonEenTweedimensionaleArray();
+        maakEnToonEenTweedimensionaleArray();
     }
 
     private void maakEnToonEenTweedimensionaleArray() {
