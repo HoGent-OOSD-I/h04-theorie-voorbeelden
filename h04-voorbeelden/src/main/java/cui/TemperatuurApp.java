@@ -30,7 +30,7 @@ public class TemperatuurApp {
     }
 
     private double geefTemperatuur(int dag) { // <.>
-        return Double.parseDouble(IO.readln("Geef temperatuur in voor dag " + dag + " > "));
+        return Double.parseDouble(IO.readln("Geef temperatuur in voor dag " + dag + " > ").replaceAll(",", "."));
     }
 
 }
